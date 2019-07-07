@@ -1,13 +1,47 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-import { Title } from './styles'
+import { FaGitAlt, FaPlus } from 'react-icons/fa'
+import { Container, Form, SubmitButton } from './styles'
 
-export default function Main() {
-  return (
-    <div>
-      <Title>
-        Hello, World!
-      </Title>
-    </div>
-  )
+export default class Main extends Component {
+
+  state = {
+    newRepo: '',
+  }
+
+  handleInputChange = (e) => {
+    this.setState({ newRepo: e.target.value })
+  }
+
+  handleSubmit = e => {
+    e.preventDefault()
+
+    console.log(this.state.newRepo)
+  }
+
+  render() {
+    const { newRepo } = this.state;
+
+    return (
+      <Container>
+        <h1>
+          <FaGitAlt />
+          Repositories
+        </h1>
+
+        <Form onSubmit={this.handleSubmit} >
+          <input
+            type="text"
+            placeholder="Add repository"
+            value={newRepo}
+            onChange={this.handleInputChange}
+          />
+
+          <SubmitButton >
+            <FaPlus color="#FFF" size={14} />
+          </SubmitButton>
+        </Form>
+      </Container>
+    )
+  }
 }
