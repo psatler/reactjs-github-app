@@ -6,7 +6,7 @@ export const Form = styled.form`
   flex-direction: row;
 
   input {
-    flex: 1;
+    flex: 1; /* it makes it fill the whole space */
     border: 1px solid #eee;
     padding: 10px 15px;
     border-radius: 4px;

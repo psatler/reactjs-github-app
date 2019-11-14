@@ -1,3 +1,30 @@
+<p align="center">
+  <img alt="Repository Last Commit Date" src="https://img.shields.io/github/last-commit/psatler/reactjs-github-app?color=blue">
+
+  <a href="https://www.linkedin.com/in/pablosatler/">
+    <img alt="Made by Pablo Satler" src="https://img.shields.io/badge/made%20by-Pablo%20Satler-blue">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/github/license/psatler/reactjs-github-app?color=blue">
+
+</p>
+
+> Listing Github repositories
+
+The application consumes the REST Github API and display some pieces of information
+about the repositories inserted by the user.
+
+## Features
+
+- ESLint, Prettier, EditorConfig
+- Styled Components
+- React Route Dom
+- React Icons
+- Axios
+- Local Storage to save and load saved list of repositories
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
