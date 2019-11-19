@@ -64,8 +64,6 @@ export default class Main extends Component {
         loading: false,
       });
     } catch (error) {
-      console.log('error', error);
-
       this.setState({
         error: true,
         newRepo: '',
