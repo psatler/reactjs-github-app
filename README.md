@@ -31,6 +31,10 @@ It has two routes:
 
 1. One for inserting the repo's names
 
+<p align="center">
+  <img width="460" height="300" src="./screenshots/main-page.png">
+</p>
+
 ![Main Page](screenshots/main-page.png)
 
 2. Another for displaying issue details about a given repository
