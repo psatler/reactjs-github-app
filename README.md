@@ -14,6 +14,8 @@
 The application consumes the REST Github API and display some pieces of information
 about the repositories inserted by the user.
 
+It displays the list of issues of a given repository added by the user. The documentation for the github issues can be found [here](https://developer.github.com/v3/issues/).
+
 ## Features
 
 - ESLint, Prettier, EditorConfig
@@ -22,6 +24,18 @@ about the repositories inserted by the user.
 - React Icons
 - Axios
 - Local Storage to save and load saved list of repositories
+
+## Screenshots of the application
+
+It has two routes:
+
+1. One for inserting the repo's names
+
+![Main Page](screenshots/main-page.png)
+
+2. Another for displaying issue details about a given repository
+
+![Repo Page](screenshots/repo-page.png)
 
 ---
 
